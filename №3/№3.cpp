@@ -11,13 +11,16 @@ public:
     }
 
     bool isEqual(Numbers nums) {
-        if (m_a != nums.m_a) 
+        if (m_a != nums.m_a) {
             return false;
-        else {
-            if (m_b != nums.m_b)
+        } else {
+            if (m_b != nums.m_b) {
                 return false;
-            else
-                if (m_c != nums.m_c) return false;
+            } else {
+                if (m_c != nums.m_c) { 
+                    return false;
+                }
+            }
         }
     }
 
