@@ -1,7 +1,7 @@
 ﻿#include <iostream>
 
 class Numbers {
-    int m_a, m_b, m_c;
+    double m_a, m_b, m_c;
 
 public:
     void setValues(int a, int b, int c) {
