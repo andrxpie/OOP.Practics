@@ -1,7 +1,7 @@
 ﻿#include <iostream>
 
 class Numbers {
-    int m_a, m_b, m_c;
+    double m_a, m_b, m_c;
 
 public:
     void setValues(int a, int b, int c) {
@@ -11,9 +11,17 @@ public:
     }
 
     bool isEqual(Numbers nums) {
-        if (m_a != nums.m_a) return false;
-        else if (m_b != nums.m_b) return false;
-        else if (m_c != nums.m_c) return false;
+        if (m_a != nums.m_a) {
+            return false;
+        } else {
+            if (m_b != nums.m_b) {
+                return false;
+            } else {
+                if (m_c != nums.m_c) { 
+                    return false;
+                }
+            }
+        }
     }
 
     void print() {
