@@ -9,7 +9,7 @@ public:
         m_radius = radius;
     }
 
-    Ball(std::string color = "Red", double radius = 20.) {
+    Ball(std::string color, double radius) {
         m_color = color;
         m_radius = radius;
     }
