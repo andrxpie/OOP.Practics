@@ -1,3 +1,3 @@
 # OOP in C++ - Practice
-
-This repository contains exercises and projects from my college coursework to practice Object-Oriented Programming (OOP) concepts in C++.
+## SSS RPC NULESU - college
+This repository contains exercises from my college to practice Object-Oriented Programming (OOP) concepts in C++.
